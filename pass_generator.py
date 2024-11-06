@@ -2,7 +2,7 @@ import string
 import random
 
 def generate_pass():
-    s1 = string.ascii_lowercase
+    s1 = string.ascii_lowercase # Crée une liste de caractères minuscules
     s2 = string.ascii_uppercase
     s3 = string.digits
     s4 = string.punctuation
